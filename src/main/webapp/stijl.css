@@ -1,0 +1,161 @@
+
+body {
+    font-family: georgia,palation,serif;
+    font-size: 14px;
+    background-color: #802218;
+    line-height: 1.35em;
+}
+
+ul {
+    list-style-type: none;
+    display:block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6f1d15
+}
+
+nav li a{
+    background-color: #6f1d15;
+    text-align: center;
+}
+
+footer article{
+    padding: 11px;
+    text-align: center;
+    background-color:  #6f1d15;
+}
+
+li a {
+    padding:8px;
+    display: block;
+    background-color: #10087e;
+    text-decoration: none;
+    color:white;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+main{
+    width: 90%;
+    margin : auto;
+    display: grid;
+}
+
+#tablemain{
+    width: 100%;
+}
+
+footer{
+    background-color: #6f1d15;
+    color: white;
+}
+
+img{
+    max-height:200px;
+    float: left;
+    padding:2px;
+}
+
+table{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+th{
+    border-style: solid;
+    border-color:  rgba(0,0,0,0.2);
+    border-width: 2px;
+    padding: 20px;
+    width: 30%;
+}
+
+td{
+    border-width: 1px;
+    border-style: solid;
+    border-color:  rgba(0,0,0,0.2);
+    width: 30%;
+}
+
+header{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
+    text-align: center;
+    position: relative;
+    padding: 35px;
+}
+
+
+
+#kader {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color:  #99491f;
+    border: solid;
+    border-width: 5px;
+    border-color: #590900;
+    position: relative;
+}
+
+#form li{
+    list-style-type: none;
+    text-align: left;
+}
+input {
+    margin-bottom: 20px;
+    margin-left: 35px;
+}
+iframe {
+    height: 300px;
+    width: 100%;
+}
+
+@media screen and (min-width: 85rem){
+    body{
+        line-height: 30px;
+    }
+    p{
+        font-size: 150%;
+    }
+    #navigatie li {
+        float: left;
+    }
+    #kader {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 60rem){
+    body{
+        line-height: 25px;
+    }
+    p{
+        font-size: 125%;
+    }
+    #navigatie li {
+        float: left;
+    }
+    #kader {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 20rem){
+    body{
+        line-height: 35px;
+    }
+    p{
+        font-size: 115%;
+    }
+    #navigatie li {
+        float: none;
+    }
+    #kader {
+        width: 90%;
+    }
+}
